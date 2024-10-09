@@ -201,6 +201,11 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
 ·Tăng cường hình ảnh sẽ không khả dụng khi Tiết kiệm pin bật hoặc thiết bị quá nóng.
 ·Tốc độ khung hình thông minh hiển thị kết quả tốt nhất khi game được đặt để hiển thị ít nhất %d khung hình mỗi giây."</item>
     </plurals>
+    <plurals name="gb_vision_enhance_desc_detail_new">
+        <item quantity="other">"Ghi chú:
+·Tăng cường hình ảnh sẽ không khả dụng khi Tiết kiệm pin bật hoặc thiết bị quá nóng.
+·Tăng cường tốc độ khung hình hiển thị kết quả tốt nhất khi game được đặt để hiển thị ít nhất %d khung hình mỗi giây."</item>
+    </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
         <item quantity="other">"Thử sử dụng Trình thay đổi giọng nói ngay
 để nhận %d ngày dùng thử miễn phí!"</item>
