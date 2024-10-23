@@ -10,12 +10,15 @@ jobs:
           
         - name: Setting Up
           run: |
-            sudo apt-get install -y apksigner
+            sudo apt-get install apksigner
             
         - name: build overlay
           run: |
             sudo chmod a+x -R bin/*
             sudo bash build.sh "all"
+
+        - name: check
+          run: |
             ls -alh "output"
             
         - name: upload artifact
