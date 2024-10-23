@@ -10,12 +10,13 @@ jobs:
           
         - name: Setting Up
           run: |
-            sudo apt-get install -y git lz4 wget zip unzip android-sdk-libsparse-utils brotli axel python3-pip zipalign apksigner xmlstarlet vim aapt p7zip-full
-        
+            sudo apt-get install -y apksigner
+            
         - name: build overlay
           run: |
-            sudo chmod 777 -R *
-            ./build.sh "all"
+            sudo chmod a+x -R bin/*
+            sudo bash build.sh "all"
+            ls -alh "output"
             
         - name: upload artifact
           uses: actions/upload-artifact@main
